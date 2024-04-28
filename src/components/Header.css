@@ -1,0 +1,76 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: #FF7BA9;
+    top: 0rem;
+}
+
+.header-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    position: relative;
+    font-weight: 500;
+    font-size: large;
+    letter-spacing: 0.1rem;
+    background-color: #FF7BA9;
+    margin-right: 45rem;
+}
+
+
+.header-navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    position: absolute; 
+    background-color: #FF7BA9;
+    border: none;
+    margin: 0.8rem;
+}
+
+.header-navigation-sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    position: relative; 
+    font-weight: 500;
+    font-size: large;
+    letter-spacing: 0.1rem;
+    background-color: #FF7BA9;
+    text-decoration: none;
+    color: black;
+    padding: 0.4rem;
+    margin: 0;
+    top: 0;
+}
+
+.header-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    background-color: #FF7BA9;
+    border: none;
+    padding: 1.7rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.header-social-sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    color: black;
+    background-color: #FF7BA9;
+    padding: 2rem;
+}
